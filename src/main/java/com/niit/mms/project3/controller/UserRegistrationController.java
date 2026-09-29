@@ -9,6 +9,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import com.niit.mms.project3.dto.UserRegistrationDto;
 import com.niit.mms.project3.service.UserService;
 
+
+
 @Controller
 @RequestMapping("/registration")
 public class UserRegistrationController {
