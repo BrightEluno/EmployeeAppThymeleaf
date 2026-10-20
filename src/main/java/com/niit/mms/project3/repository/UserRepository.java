@@ -9,4 +9,3 @@ import com.niit.mms.project3.model.User;
 public interface UserRepository extends JpaRepository<User, Long>{
 	User findByEmail(String email);
 }
-
